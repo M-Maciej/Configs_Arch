@@ -28,4 +28,4 @@ fi
 source ${ZIM_HOME}/init.zsh
 
 eval "$(ssh-agent)"
-
+ssh-add ~/.ssh/github_atle
