@@ -13,6 +13,7 @@ bindkey -v
 # End of lines added by compinstall
 setopt CORRECT
 unsetopt BEEP
+setopt globdots
 ZIM_CONFIG_FILE=~/.config/zsh/zimrc
 ZIM_HOME=~/.zim
 # Download zimfw plugin manager if missing.
@@ -27,5 +28,5 @@ fi
 # Initialize modules.
 source ${ZIM_HOME}/init.zsh
 
-eval "$(ssh-agent)"
-ssh-add ~/.ssh/github_atle
+#eval "$(ssh-agent)"
+#ssh-add ~/.ssh/github_atle
