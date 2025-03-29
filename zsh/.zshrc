@@ -30,3 +30,7 @@ source ${ZIM_HOME}/init.zsh
 
 #eval "$(ssh-agent)"
 #ssh-add ~/.ssh/github_atle
+
+if uwsm check may-start && uwsm select; then
+    exec systemd-cat -t uwsm_start uwsm start default
+fi
