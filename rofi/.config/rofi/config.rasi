@@ -3,4 +3,6 @@ directory: "~";
 command: "flatpak run re.sonny.Junction";
 }
 
-@theme "/usr/share/rofi/themes/arthur.rasi"
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
